@@ -1,0 +1,19 @@
+{
+  "name": "jwxwork",
+  "version": "0.0.1",
+  "description": "企业微信官方jwxwork sdk CommonJS版",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsonwu5/jwxwork.git"
+  },
+  "keywords": [
+    "jwxwork"
+  ],
+  "author": "jsonwu@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsonwu5/jwxwork/issues"
+  },
+  "homepage": "https://github.com/jsonwu5/jwxwork#readme"
+}
