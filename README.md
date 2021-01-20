@@ -13,10 +13,12 @@
     npm install jwxwork
 
 ##使用:
+    
+```javascript
     wx.agentConfig({
         corpid: '', // 必填，企业微信的corpid，必须与当前登录的企业一致
         agentid: '', // 必填，企业微信的应用id （e.g. 1000247）
-        timestamp: , // 必填，生成签名的时间戳
+        timestamp: '', // 必填，生成签名的时间戳
         nonceStr: '', // 必填，生成签名的随机串
         signature: '',// 必填，签名，见附录-JS-SDK使用权限签名算法
         jsApiList: ['selectExternalContact'], //必填
@@ -29,4 +31,5 @@
             }
         }
     });
+```
 
