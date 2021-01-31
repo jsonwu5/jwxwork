@@ -16,8 +16,17 @@
 
 ##使用:
 
+首页在index.html中引入微信jssdk
+
+```<script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>```
+    
+然后在使用的地方引入
+
+
 ```javascript
-    import wx from 'wecomjsdk';
+    import 'wecomjsdk';
+
+    const wx = window.wx;
     // 配置微信jssdk权限
     wx.config({
         beta: true, // 必须这么写，否则wx.invoke调用形式的jsapi会有问题
