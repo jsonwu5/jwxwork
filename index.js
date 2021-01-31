@@ -1,6 +1,10 @@
 // https://res.wx.qq.com/wwopen/js/jsapi/jweixin-1.0.0.js
 !(function (e, t) {
-    module.exports = t(e);
+    'function' != typeof define || (!define.amd && !define.cmd) || window.requirejs
+        ? t(e, !0)
+        : define('js/jsapi/jweixin-1.0.0', [], function () {
+            return t(e);
+        });
 })(this, function (e, t) {
     if (!e.jWeixin) {
         var n,
@@ -1011,3 +1015,4 @@
             } catch (n) {}
         }
     })(this);
+module.exports = window.wx;
