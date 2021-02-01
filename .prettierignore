@@ -1,0 +1,12 @@
+# add files you wish to ignore here
+**/*.md
+**/*.svg
+**/test.ts
+
+.stylelintrc
+.prettierrc
+
+node_modules/
+.vscode/
+coverage/
+dist/

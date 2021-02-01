@@ -1,8 +1,12 @@
-// 基于企业微信jssdk官方文件修改
+// 企业微信jssdk官方文件，只作了代码格式化处理，方便对照修改
 // https://res.wx.qq.com/wwopen/js/jsapi/jweixin-1.0.0.js
 !(function (e, t) {
-  module.exports = t(e);
-})(window, function (e, t) {
+  'function' != typeof define || (!define.amd && !define.cmd) || window.requirejs
+    ? t(e, !0)
+    : define('js/jsapi/jweixin-1.0.0', [], function () {
+        return t(e);
+      });
+})(this, function (e, t) {
   if (!e.jWeixin) {
     var n,
       i = {

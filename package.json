@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jsonwu5/jwxwork/issues"
   },
-  "homepage": "https://github.com/jsonwu5/jwxwork#readme"
+  "homepage": "https://github.com/jsonwu5/jwxwork#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
