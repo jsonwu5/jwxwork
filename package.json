@@ -8,7 +8,15 @@
     "url": "git+ssh://git@github.com/jsonwu5/jwxwork.git"
   },
   "keywords": [
-    "jwxwork"
+    "微信",
+    "企业微信",
+    "企业微信JSSDK",
+    "企业微信开放平台",
+    "JSSDK",
+    "wecom",
+    "wechat",
+    "jwxwork",
+    "wecomjsdk"
   ],
   "author": "jsonwu@qq.com",
   "license": "ISC",
