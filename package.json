@@ -1,6 +1,6 @@
 {
   "name": "wecomjsdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "企业微信官方jwxwork sdk CommonJS版",
   "main": "index.js",
   "repository": {
